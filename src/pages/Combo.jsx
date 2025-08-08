@@ -1,11 +1,9 @@
-import React from 'react'
 import number from '../assets/pizza-img/1.png'
 import pastaPizza from '../assets/pizza-img/Pata-pizza-ul.png'
 import pattern from '../assets/pizza-img/pattern.png'
 import pastaSlays from '../assets/pizza-img/pizza-slays.png'
 import slays from '../assets/pizza-img/slays.png'
 import whiteimg from '../assets/pizza-img/white-pasta-pizza.png'
-import Footer from '../components/layout/Footer'
 
 
 
@@ -105,7 +103,6 @@ const Combo = () => {
           </ul>
         </div>
       </div >
-      <Footer />
     </>
 
 

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import yellowGirl from '../assets/pizza-img/yellow-girl.png'
 import blackGirl from '../assets/pizza-img/black-gril.png'
 import NewItems from '../components/layout/NewItems'
@@ -58,12 +58,7 @@ const Home = () => {
       <NewItems />
       <Pastaul />
       <Payment />
-      <Footer />
     </div>
-
-
-
-
   )
 }
 

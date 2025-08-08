@@ -1,6 +1,3 @@
-import React from 'react'
-import Footer from '../components/layout/Footer'
-
 const Contact = () => {
   return (
     <>
@@ -16,7 +13,6 @@ const Contact = () => {
         </div>
 
       </div>
-      <Footer />
     </>
 
   )

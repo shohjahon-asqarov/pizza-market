@@ -1,5 +1,3 @@
-import React from 'react'
-import Footer from '../components/layout/Footer'
 import dessert from '../assets/pizza-img/desserts-aksiya.png'
 
 const Promotos = () => {
@@ -20,7 +18,6 @@ const Promotos = () => {
                 </div>
                 <button className='px-[40px] py-[10px] rounded-2xl bg-[#F7D22D] text-white flex justify-center m-auto mt-[40px]'>All actions</button>
             </div>
-            <Footer />
         </div>
     )
 }

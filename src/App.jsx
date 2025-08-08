@@ -12,6 +12,7 @@ import Desserts from './pages/Desserts'
 import Promotos from './pages/Promotos'
 import Combo from './pages/Combo'
 import Contact from './pages/Contact'
+import Footer from './components/layout/Footer'
 
 const App = () => {
   return (
@@ -31,6 +32,9 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </main>
+
+
+      <Footer />
     </>
   )
 }

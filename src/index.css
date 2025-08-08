@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 30px auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --yellow: #F7D22D;
+  --black: #000000;
+  --grey: #797979;
+  --p-grey: #686466;
+  --bgray: #231F20;
+}
+
+/* scroll chizig'ini yashirish uchun class */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE va Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
